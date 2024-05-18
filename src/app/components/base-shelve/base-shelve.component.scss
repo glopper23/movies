@@ -1,0 +1,121 @@
+.base-shelve {
+    background-image: url('../../../assets/images/small-shelves.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+}
+
+.shelf-top {
+    height: 5em;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.levels {
+    // display: block;
+    width: 95%;
+}
+
+.shelf-title {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.shelf-tag {
+    background-image: url('../../../assets/images/shelf-tag.png');
+    background-repeat: no-repeat;
+    background-size:cover;  
+    padding: 0 1em;
+}
+
+.tv-trailers {
+  display: flex;
+  flex: 1;
+//   width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.5em;
+}
+
+.tv-trailers-mask {
+    display: flex;
+    // box-shadow: rgba(0, 0, 0) 7px 10px 18px 10px;
+    filter: drop-shadow(15px 10px 40px #000);
+    // background-color: black;
+    padding-left: 1.4em;
+    padding-top: 2em;
+    width: 100%;
+    height: 20em;
+    background-image: url('../../../assets/images/movie-artifacts/sixties-television.png'); 
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    // align-items: center;
+    justify-content: flex-start;
+}
+
+.tv-container {
+    background-image: url('../../../assets/images/poster.png'); 
+    display: flex;
+  flex: 1;
+  width: 70vw;
+    justify-content: center;
+  align-items: center; 
+}
+
+.video {
+    width: 76%;
+    height: 70%;
+}
+
+@media screen and (min-width: 729px) {
+    .video {
+        width: 23em;
+        height: 80%
+    }
+  }
+
+@media screen and (max-width: 653px) {
+    .video {
+        width: 76%;
+        height: 80%;
+    }
+  }
+
+@media screen and (max-width: 608px) {
+    .video {
+        width: 76%;
+        height: 60%;
+    }
+  }
+
+  @media screen and (max-width: 540px) {
+    .tv-trailers-mask {
+        padding-top: 1em;
+    }
+  }
+
+  @media screen and (max-width: 465px) {
+    .video {
+        width: 76%;
+        height: 50%;
+    }
+  }
+
+  @media screen and (max-width: 379px) {
+    .video {
+        width: 76%;
+        height: 40%;
+    }
+  }
+
+  @media screen and (max-width: 321px) {
+    .video {
+        width: 76%;
+        height: 35%;
+    }
+  }

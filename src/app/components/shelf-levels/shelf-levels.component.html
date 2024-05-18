@@ -1,0 +1,19 @@
+<div class="shelf-levels">
+    <div *ngFor="let level of parsedList; let j = index" class="shelf-level">
+        <shelf-item
+          *ngFor="let item of level.items; let i = index"
+          (click)="changeSelectedIndex(j,i)"
+          [item]="item"
+        ></shelf-item>
+    </div>
+    <visual-artifacts [selectedItem]="itemList[selectedIndex]" *ngIf="shelvesType === 'music'" />
+</div>
+<div class="snap-container">
+ 
+  <div class="tab-description">
+    <div class="description">
+        <p>{{itemList[selectedIndex].description}}</p>
+    </div>
+</div>
+        
+</div>

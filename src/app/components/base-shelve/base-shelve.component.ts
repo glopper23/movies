@@ -328,6 +328,16 @@ import { MovieService } from '../../services/movie.service';
         trailer: "https://www.youtube.com/embed/vswj96INhmo?si=Q2wCkF6S-SFJ3yun"
       },
       {
+        cover: 'warm-bodies.png',
+        director: 'Shakira',
+        protagonists: ['Hilary Duff', 'Chad Michael Murray', 'Jennifer Coolidge'],
+        movieName: "Warm Bodies",
+        case: 'warm-bodies.png',
+        scene: "warm-bodies.png",
+        description: "I loved this romance/comedy. I feel it was very well executed despite the irony of the story and the low budget CGI. You can say the story was what saved this movie from being just another cringe juvenille fail. I still watch this once in a while.",
+        trailer: "https://www.youtube.com/embed/07s-cNFffDM?si=gRK65aZFS7C-TK96"
+      },
+      {
         cover: 'nerve.png',
         director: 'Shakira',
         protagonists: ['Hilary Duff', 'Chad Michael Murray', 'Jennifer Coolidge'],
@@ -416,6 +426,16 @@ import { MovieService } from '../../services/movie.service';
         scene: "captain-america.png",
         description: "I remember the adds from 2011 promoting this movie, and I remember I was sad that we couldn't afford tickets for the movies. Years later a friend of mine convinced me to watch all the marvel movies before the premier of The Avengers: End Game. This was by far, my favorite movie. It had a beautiful script and the design of the character was on point. Amazing movie that reminded me how obsessed I was with American History when I was like 14.",
         trailer: "https://www.youtube.com/embed/JerVrbLldXw?si=9DOQvz9Yk3BwogCx"
+      },
+      {
+        cover: 'simple-favor.png',
+        director: 'Shakira',
+        protagonists: ['Hilary Duff', 'Chad Michael Murray', 'Jennifer Coolidge'],
+        movieName: "A Simple Favor",
+        case: 'simple-favor.png',
+        scene: "simple-favor.png",
+        description: "I only watched this movie because Anna Kendrick was there. But I was surprised by the amazing and fun plot, and of course, the soundtrack was the top of the notch, loved the French music they selected for the movie. And I learned a new word: BROTHERFUCKEER!",
+        trailer: "https://www.youtube.com/embed/rAqMlh0b2HU?si=ZGZ8vrG6S3qmJq62"
       },
       {
         cover: 'happiest.png',

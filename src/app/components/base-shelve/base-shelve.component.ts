@@ -111,7 +111,7 @@ import { MovieService } from '../../services/movie.service';
         movieName: "Harry Potter and the Prisoner of Azkaban",
         case: 'harry-3.png',
         scene: "harry-3.png",
-        description: "My favorite movie from the Harry Potter saga. It has everything I'd expect my magic school would have. The evil characters looked more realistic. I don't know, everything felt better design and told in this movie. It made me want to be in the Harry Potter universe again.",
+        description: "My favorite movie from the Harry Potter saga. It has everything I'd expect my magic school would have. The evil characters looked more realistic. I don't know, everything felt better designed and told in this movie. It made me want to be in the Harry Potter universe again.",
         trailer: "https://www.youtube.com/embed/lAxgztbYDbs?si=vZbSRZrhzJSfgNSm"
       },
       {
@@ -175,13 +175,23 @@ import { MovieService } from '../../services/movie.service';
         trailer: "https://www.youtube.com/embed/CzcGwB7qat8?si=q2uSm7eWkGYoa55g"
       },
       {
+        cover: 'zathura.png',
+        director: 'Shakira',
+        protagonists: ['Hilary Duff', 'Chad Michael Murray', 'Jennifer Coolidge'],
+        movieName: "Zathura: A space adventure",
+        case: 'zathura.png',
+        scene: "zathura.png",
+        description: "Until now I feel this movie is one of the most creative I've seen. It also brings cool memories from the end of my childhood.",
+        trailer: "https://www.youtube.com/embed/zNxm_obDpNU?si=rLFKBTQRxqxc5yui"
+      },
+      {
         cover: 'terabithia.png',
         director: 'Shakira',
         protagonists: ['Hilary Duff', 'Chad Michael Murray', 'Jennifer Coolidge'],
         movieName: "Bridge to Terabithia",
         case: 'terabithia.png',
         scene: "terabithia.png",
-        description: "This movie was the first thing ever to broke my heart. I can't explain the grieve I felt later, I spent almost two weeks feeling sad about this movie. I really felt Jesse's lost.",
+        description: "This movie was the first thing ever that broke my heart. I can't explain the grieve I felt later, I spent almost two weeks feeling sad about this movie. I really felt Jesse's lost.",
         trailer: "https://www.youtube.com/embed/_DSGAeeDXO0?si=kk59arjUwBrpWiXi"
       },
       {
@@ -255,6 +265,16 @@ import { MovieService } from '../../services/movie.service';
         scene: "17-again.png",
         description: "I just teletransport to my 14 year old each time I watch this movie. It makes me remember how I felt, and the changes my body had when I was just turning into an adolescent. Also, it made me be afraid of wanting to re-do an entire stage of my life all over again, and not being able to. One of my biggest fears.",
         trailer: "https://www.youtube.com/embed/UQK5Hh0L1Sg?si=s4n6VbQP3DHHhGa1"
+      },
+      {
+        cover: 'hansel-and-gretel.png',
+        director: 'Shakira',
+        protagonists: ['Hilary Duff', 'Chad Michael Murray', 'Jennifer Coolidge'],
+        movieName: "Hansel & Gretel: Witch Hunters",
+        case: 'hansel-and-gretel.png',
+        scene: "hansel-and-gretel.png",
+        description: "When I was a kid I loved the story of Hansel and Gretel, so when I heard about this movie I was so excited. And I was not disappointed. I still think it was a cool movie, I loved the new concept and action and the blood. I think it's cool.",
+        trailer: "https://www.youtube.com/embed/p6wk1XySBTk?si=4ulOC49uGt0PBXqu"
       },
       {
         cover: 'forrest.png',
@@ -523,6 +543,16 @@ import { MovieService } from '../../services/movie.service';
         trailer: "https://www.youtube.com/embed/HEVonh8bjC0?si=bQZmzMIEN3GjSJ8S"
       },
       {
+        cover: 'blade-runner-2049.png',
+        director: 'Shakira',
+        protagonists: ['Hilary Duff', 'Chad Michael Murray', 'Jennifer Coolidge'],
+        movieName: "Blade Runner 2049",
+        case: 'blade-runner-2049.png',
+        scene: "blade-runner-2049.png",
+        description: "This movie made me fell in love with the cyberpunk aesthetic and the story of the origin of this style. I remember seeing the posters of this movie all over the city, but I wasn't able to watch it cause I was the poorest I've ever been haha, but that feeling definitely felt similar to the vibe of the movie, like pure desolation.",
+        trailer: "https://www.youtube.com/embed/gCcx85zbxz4?si=v7G3MTJ3Ulyk2Xdr"
+      },
+      {
         cover: 'hackers.png',
         director: 'Shakira',
         protagonists: ['Hilary Duff', 'Chad Michael Murray', 'Jennifer Coolidge'],
@@ -569,10 +599,39 @@ import { MovieService } from '../../services/movie.service';
         movieName: "The Anatomy of a Fall",
         case: 'fall.png',
         scene: "fall.png",
-        description: "I was dessatisfied that this movie didn't give us the answer we wanted at the end. But then I understood, that was not the point. Loved the way nobody really knows what happened, not even us, the public hahaha. I watched this as a copping mechanism to get over my own illness, ended up being an amazing decision.",
+        description: "I was dessatisfied with the fact that this movie didn't give us the answer we wanted at the end. But then I understood, that was not the point. Loved the way nobody really knows what happened, not even us, the public hahaha. I watched this as a copping mechanism to get over my own illness, ended up being an amazing decision.",
         trailer: "https://www.youtube.com/embed/MJlpGZuE4R4?si=dUz792f8kY0m2Z6v"
       },
-      
+      {
+        cover: 'wach.png',
+        director: 'Shakira',
+        protagonists: ['Hilary Duff', 'Chad Michael Murray', 'Jennifer Coolidge'],
+        movieName: "Wach",
+        case: 'wach.png',
+        scene: "wach.png",
+        description: "This movie reminded me of how much I liked edgy movies when I was a teenager. I liked what Kim Frank did here with the little money he had, it looks like a movie made by MTV.",
+        trailer: "https://www.youtube.com/embed/U5nP9Mk3VgE?si=trrLz9NMmM76EyQr"
+      },
+      {
+        cover: 'wir-konnen.png',
+        director: 'Shakira',
+        protagonists: ['Hilary Duff', 'Chad Michael Murray', 'Jennifer Coolidge'],
+        movieName: "Wir können nicht anders",
+        case: 'wir-konnen.png',
+        scene: "wir-konnen.png",
+        description: "I watched this just because Alli Neumann was here, and I was looking for new german content. I like this movie not because it's great, but because it's a total mess 😂. Loved Alli Neumann's acting, as always. Loved the mix of good and bad acting, good and bad plot ideas, christmas and bloody stuff happening just because. I liked this movie because it was bad hahaha. And the best part was the end when the final message was: 'None of this had to happen, but that's life'. That was the perfect ending for such a messy movie, I loved it.",
+        trailer: "https://www.youtube.com/embed/dj0Uu4bDvMQ?si=TMipPdn6zlbb_q43"
+      },
+      {
+        cover: 'smile-2.png',
+        director: 'Shakira',
+        protagonists: ['Hilary Duff', 'Chad Michael Murray', 'Jennifer Coolidge'],
+        movieName: "Smile 2",
+        case: 'smile-2.png',
+        scene: "smile-2.png",
+        description: "First horror movie I've ever watched just because, kinda. I'm not saying it's the best ever, but I really liked the story, the colors, the camara angles and the sound effects they used for quiet scenes. The best part was definitely the acting work of Naomi Scott, I'm pretty sure this movie would've failed without her acting, because it would've been difficult to ignore the areas where the movie was lacking attention.",
+        trailer: "https://www.youtube.com/embed/FU_bAopCcSE?si=FlkuI7bozhVyasCb"
+      },
       
       
       

@@ -297,6 +297,16 @@ import { MovieService } from '../../services/movie.service';
         trailer: "https://www.youtube.com/embed/ye4KFyWu2do?si=vsXsIldT7S-hv44-"
       },
       {
+        cover: 'tomorrowland.png',
+        director: 'Shakira',
+        protagonists: ['Hilary Duff', 'Chad Michael Murray', 'Jennifer Coolidge'],
+        movieName: "Tomorrowland",
+        case: 'tomorrowland.png',
+        scene: "tomorrowland.png",
+        description: "This movie is very special to me, it keeps being an inspiration even when my life keeps changing. One of my favorites movies ever.",
+        trailer: "https://www.youtube.com/embed/lWZ7O-RrATY?si=DtJilxajT2fLC1Nf"
+      },
+      {
         cover: 'divergent.png',
         director: 'Shakira',
         protagonists: ['Hilary Duff', 'Chad Michael Murray', 'Jennifer Coolidge'],
